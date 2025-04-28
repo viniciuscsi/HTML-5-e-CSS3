@@ -1,0 +1,55 @@
+h1{
+    color: blue;
+    font-size: 32px;
+    text-align: center;
+}
+
+body{
+    background-image: url("../imagens/robox.png");
+    background-color: rgba(161, 161, 218, 0.452);
+    /*../ faz com que voltemos a raiz do projeto*/
+    background-repeat: no-repeat;
+    background-size: 800px 740px;
+    color: rgb(58, 55, 55);
+    font-family: 'Itim';
+
+}
+
+main{
+    /*background-color: rgba(red, green, blue, alpha);
+    Alpha: é onde encontra a transparencia, a transparência varia de 0 a 1
+    onde 0 é totalmente transparente e 1 é totalmente visível*/
+    /*                  rgba(red, green, blue, alpha        */
+    background-color: rgba(148, 135, 182, 0.6) ;
+    /*Padding: espaçamento entre conteúdo e a borda," Espaçamento interno"*/
+    padding: 0px 0px;
+    margin-top: 20px;
+    /*border-radius: arredondamento das bordas*/
+    border-radius: 10px;
+}
+.logo, .manchete, .headline{
+    margin: 0;
+    text-align: center;
+}
+/*. define uma classe*/
+.video{
+    margin: 0;
+    text-align: center;
+}
+article{
+    text-align: center;
+    font-family: normal;
+    font-size: 20px;
+    color: rgb(17, 17, 17);
+}
+.robo{
+    margin: 30px 0 ;
+    text-align: center;
+    width: 100%;
+}
+.robo table{
+    background: rgba(223, 117, 200, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+}
