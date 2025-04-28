@@ -1,0 +1,19 @@
+h1{
+    color: azure;
+    text-align: center;
+}
+body{
+    background-image: url(Imagens/car_fundo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    color:rgb(233, 223, 79);
+    font-size: 20px;
+}
+.font{
+    color:black;
+    font-size: 22px;
+
+}
